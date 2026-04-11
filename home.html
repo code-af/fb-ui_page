@@ -9,36 +9,53 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid fbpage">
-            <div class="row mb-3">
-                <div class="left col-md-6 col-12">
-                    <img src="https://imgs.search.brave.com/3bOVdRLU5aRVqkxT3qvnt5Fyqfw--K4Ep10u_KIt2Fo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTgv/OTMwLzQ3Ni9zbWFs/bC9mYWNlYm9vay1s/b2dvLWZhY2Vib29r/LWljb24tdHJhbnNw/YXJlbnQtZnJlZS1w/bmcucG5n"
-                    class="fblogo">
-                    <img src="https://static.xx.fbcdn.net/rsrc.php/v4/yg/r/_zMGyxjiiNp.png" class="img-fluid">
-                    <h1 class="mt-3 ms-5">Explore<br>the things</h1>
-                    <h1 class="mt-3 ms-5" style="color: rgb(43, 94, 233)">you love</h1>
-                    <h1 class="mt-3 ms-5" style="margin-left: 240px; margin-top: -134px;">.</h1>
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- LEFT -->
+                <div class="col-md-6 left-section pt-2">
+
+                    <!-- LOGO -->
+                    <img src="https://imgs.search.brave.com/3bOVdRLU5aRVqkxT3qvnt5Fyqfw--K4Ep10u_KIt2Fo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTgv/OTMwLzQ3Ni9zbWFs/bC9mYWNlYm9vay1s/b2dvLWZhY2Vib29r/LWljb24tdHJhbnNw/YXJlbnQtZnJlZS1w/bmcucG5n" 
+                        class="mb-1" style="width:100px;">
+
+                    <!-- IMAGE -->
+                    <div class="d-flex justify-content-end">
+                        <img src="https://static.xx.fbcdn.net/rsrc.php/v4/yg/r/_zMGyxjiiNp.png" class="img-fluid" style="max-width:600px;">
+                    </div>
+
+                    <!-- TEXT -->
+                    <div class="">
+                        <h1 class="fw-bold">Explore the things</h1>
+                        <h1 class="text-primary fw-bold">you love.</h1>
+                    </div>
+
                 </div>
-                <div class="right col-md-6 col-12">
-                    <form id="login-form">
-                        <h1 class="mobmail" 
-                        style="margin-top:150px;margin-left:50px;font-size:20px;">Log in to Facebook</h1>
-                        <input class="mobmail" type="text" placeholder="Email address or mobile number" 
-                                pattern="(^[0-9]{10}$)|(^[^\s@]+@[^\s@]+\.[^\s@]+$)" required
-                                style="height: 50px" name="loginMail">
 
-                        <input class="password" type="password" placeholder="Password" required
-                        style="margin-top: 10px; margin-bottom: 25px; height: 50px" name="loginPass">
+                <!-- RIGHT -->
+                <div class="col-md-6 right-section pt-5 d-flex justify-content-center">
 
-                        <button type="submit" class="button1" style="margin-left: 50px;margin-bottom: 25px;">Log in</button>
-                        <button class="forgotpass">Forgotten password ?</button>
-                        <button class="createaccount" onclick="window.location.href='index.html'">Create new account</button><br>
-                    </form>
+                <div class="login-box mt-5">
 
-                    <img class="meta"
-                    src="https://imgs.search.brave.com/x6HOWKTRODJFA46kmLN6vNhpwLEaqpG4ASZyVFpHwgk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzQyLzEvbWV0YS1u/ZXctZmFjZWJvb2st/MjAyMS1sb2dvLXBu/Z19zZWVrbG9nby00/MjM5NjEucG5n"
-                    style="margin-left: 265px;">
+                    <h6 class="mb-3">Log in to Facebook</h6>
+
+                    <input class="form-control w-100 mb-3" placeholder="Email address or mobile number">
+
+                    <input class="form-control w-100 mb-3" placeholder="Password">
+
+                    <button class="btn btn-primary w-100 login-btn mb-2">Log in</button>
+
+                    <p class="text-center small">Forgotten password?</p>
+
+                    <button class="btn btn-outline-primary w-100">Create new account</button>
+
+                    <img src="https://imgs.search.brave.com/x6HOWKTRODJFA46kmLN6vNhpwLEaqpG4ASZyVFpHwgk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzQyLzEvbWV0YS1u/ZXctZmFjZWJvb2st/MjAyMS1sb2dvLXBu/Z19zZWVrbG9nby00/MjM5NjEucG5n"
+                     class="img-fluid" style="width: 4em; height: 4em;">
+
                 </div>
+                    
+                </div>
+
             </div>
         </div>
     </header>

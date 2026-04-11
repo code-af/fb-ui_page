@@ -1,15 +1,14 @@
 *{
     box-sizing: border-box;
 }
-/*.accountcreation{
-    margin-left: 175px;
+.fbpage{
     background: #ffffff;
-    width:790px;
-    padding-top: 25px;
-    padding-left: 180px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: smaller;
-}*/
+    width:100%;
+}
+.accountcreation {
+    max-width: 600px;
+    margin: auto;
+}
 .meta{
     height: 65px;
     width: 75px;
@@ -220,29 +219,32 @@
     text-decoration: none;
     color: darkslategray;
 }
-.left{
-    
-}
 .fblogo{
     width: 100px;
     height: 100px;
     margin: 30px;
 }
-/*.homepic{
-    height: 600px;
-    width: 600px;
-    margin-top: -160px;
-    margin-left: 70px;
+.homepic {
+    max-width: 100%;
 }
-.hometitle{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: -190px;
-    margin-left: 25px;
+.hometitle {
     font-size: 55px;
     font-weight: bold;
-}*/
-.right{
-    
+}
+.login-box {
+    width: 100%;
+    max-width: 450px;
+}
+
+.left-section {
+    padding-left: 80px;   /* pushes content like FB */
+}
+
+.right-section {
+    border-left: 1px solid #ddd;
+}
+.right {
+    border-left: 1px solid #ccc;
 }
 .right input{
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -288,4 +290,9 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     width:500px;
     height: 40px;
     border-radius: 150px;
+}
+.form-control {
+    border-radius: 70px;
+    padding: 12px;
+    font-size: 14px;
 }
