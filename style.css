@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-.accountcreation{
+/*.accountcreation{
     margin-left: 175px;
     background: #ffffff;
     width:790px;
@@ -9,7 +9,7 @@
     padding-left: 180px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: smaller;
-}
+}*/
 .meta{
     height: 65px;
     width: 75px;
@@ -221,19 +221,14 @@
     color: darkslategray;
 }
 .left{
-    margin-top:20px;
-    width:50%;
-    height: 800px;
-    background: #ffffff;
-    float: left;
-    margin-bottom: 0;
+    
 }
 .fblogo{
     width: 100px;
     height: 100px;
     margin: 30px;
 }
-.homepic{
+/*.homepic{
     height: 600px;
     width: 600px;
     margin-top: -160px;
@@ -245,17 +240,9 @@
     margin-left: 25px;
     font-size: 55px;
     font-weight: bold;
-}
+}*/
 .right{
-    margin-top: 0;
-    padding-top: 20px;
-    width:50%;
-    height: 800px;
-    background: #ffffff;
-    float: left;
-    margin-bottom: 0;
-    border-left: 1px solid #cccccc;
-
+    
 }
 .right input{
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
