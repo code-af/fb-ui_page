@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+header{
+    min-height: 100vh;
+}
 .fbpage{
     background: #ffffff;
     width:100%;
@@ -10,9 +13,14 @@
     margin: auto;
 }
 .meta{
-    height: 65px;
-    width: 75px;
+    height: 4em;
+    width: 4.6em;
     margin-top: -25px;
+}
+.metahome{
+    height: 4.5em;
+    width: 4.5em;
+    margin-left: 15em;
 }
 .firsthead{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -94,8 +102,8 @@
 .mobmail input{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: 2px solid #1877f2;
-    width: 475px;
-    height: 35px;
+    width: 32em;
+    height: 3.5em;
     border-radius: 15px;
     margin: 5px;
     font-size: medium;
@@ -126,8 +134,8 @@
 .password input{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: 2px solid #1877f2;
-    width: 475px;
-    height: 35px;
+    width: 32em;
+    height: 3.5em;
     border-radius: 15px;
     margin: 5px;
     font-size: medium;
@@ -220,16 +228,27 @@
     color: darkslategray;
 }
 .fblogo{
-    width: 100px;
-    height: 100px;
+    height: 6em;
+    width: 10em;
     margin: 30px;
 }
 .homepic {
-    max-width: 100%;
+    margin-top: -75px;
 }
 .hometitle {
     font-size: 55px;
     font-weight: bold;
+}
+.hero-text-block {
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+}
+.hero-text{
+    margin-top: -300px;
+    line-height: 1.1;
+    font-size: 60px;
+    
 }
 .login-box {
     width: 100%;
@@ -237,15 +256,16 @@
 }
 
 .left-section {
-    padding-left: 80px;   /* pushes content like FB */
+    
+    position: relative;
+    padding: 40px;
+    padding-left: 30px;   /* pushes content like FB */
 }
 
 .right-section {
     border-left: 1px solid #ddd;
 }
-.right {
-    border-left: 1px solid #ccc;
-}
+
 .right input{
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: 2px solid #1877f2;
@@ -258,10 +278,10 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     padding: 10px;
     transition: 0.3s;
 }
-.right input:focus{
+.right-section input:focus{
     outline: none;
 }
-.right input::placeholder{
+.right-section input::placeholder{
     font-size: medium;
     color: #1877f2;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -292,11 +312,13 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     border-radius: 150px;
 }
 .form-control {
-    min-height: 60px;
+    font-weight: bold;
+    height: 4em;
     border-radius: 15px;
     padding: 12px;
     font-size: 14px;
 }
 .btn{
     border-radius: 25px;
+    height: 3em;
 }
