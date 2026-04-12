@@ -322,6 +322,25 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     border-radius: 25px;
     height: 3em;
 }
-.btn:focus{
-    outline-color: #1877f2;
+.forgot-btn {
+    font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.forgot-btn:hover {
+  background-color: #eef0f3;  /* very subtle grey */
+  color: inherit;             /* keep same text color */
+  box-shadow: #eef0f3;           /* remove Bootstrap hover shadow */
+  border: solid 1px #eef0f3;
+}
+
+.create-btn{
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+.create-btn:hover {
+  background-color: #eef0f3;   /* subtle grey */
+  color: #1877f2;              /* KEEP FB blue text */
+  border-color: #1877f2;       /* keep border blue */
+  box-shadow: none;            /* remove bootstrap glow */
 }
